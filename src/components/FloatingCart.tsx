@@ -14,7 +14,7 @@ export const FloatingCart = () => {
     <div className="fixed bottom-6 right-6 z-50">
       <Button
         onClick={openCart}
-        className="h-14 w-14 rounded-full bg-primary hover:bg-primary/90 shadow-lg"
+        className="h-14 w-14 rounded-full bg-primary hover:bg-primary/90 shadow-xl transition-luxury hover:scale-110"
         size="icon"
       >
         <div className="relative">
